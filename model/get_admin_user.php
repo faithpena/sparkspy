@@ -9,7 +9,7 @@
 		$data = array('user_id' => $user_id);
 
 		# Prepare the query
-		$STH = $DBH->prepare('SELECT * FROM users WHERE is_admin = TRUE and user_id = :user_id');
+		$STH = $DBH->prepare('SELECT * FROM users WHERE is_admin = true and user_id = :user_id');
 		
 		# Execute the query
 		$STH->execute($data);

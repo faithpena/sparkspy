@@ -15,9 +15,8 @@
 	if(isset($user) && password_verify($password, $user->password)) {
 		$_SESSION['user_id'] = $user->user_id;
 		$_SESSION['email'] = $user->email;
-		$admin = get_admin_user($user->user_id);
 		
-		if(isset($admin)) {
+		if($user->is_admin == true) {
 			$_SESSION['admin'] = 1;
 		}
 		header("Location: ../home.php");
