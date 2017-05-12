@@ -34,13 +34,5 @@
 		}
 	}
 
-	if (isset($_SESSION['user'])) {
-		header ("Location: ../admin_account.php");
-	}
-	else {
-		# Redirect to homepage
-		header ("Location: ../index.php");
-	}
-	
-
+	header ("Location: ../admin_account.php");
 ?>
