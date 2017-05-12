@@ -16,7 +16,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>dcnoe38rfbqjpo Landing Page</title> <!--Change this -->
+  <title>smartbuilding Landing Page</title> <!--Change this -->
 
   <!-- CSS Links -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -64,5 +64,42 @@
         </div>
     </div>
 
+     <div class = "text-center">
+          <form class = "form-horizontal" action = "controller/signup.php" method = "POST">
+            <fieldset>
+              <div class = "createForm">
+                <div class = "control-group">
+                  <div class = "controls">
+                    <input type = "text" id = "email" name = "email" placeholder = "Email Address" class = "input-xlarge customInput">
+                  </div>
+                </div>
+                <div class = "control-group">
+                  <div class = "controls">
+                    <input type = "password" id = "password" name = "password" placeholder = "*******" class = "input-xlarge customInput">
+                  </div>
+                </div>
+                <div class = "control-group">
+                  <div class = "controls">
+                    <input type = "password" id = "confirm_password" name = "confirm_password" placeholder = "*******" class = "input-xlarge customInput">
+                  </div>
+                </div>
+                <div class = "control-group">
+                  <div class = "controls">
+                    <input type = "text" id = "first_name" name = "first_name" placeholder = "First Name" class = "input-xlarge customInput">
+                  </div>
+                </div>
+                <div class = "control-group">
+                  <div class = "controls">
+                    <input type = "text" id = "last_name" name = "last_name" placeholder = "Last Name" class = "input-xlarge customInput">
+                  </div>
+                </div>
+                <div class = "control-group">
+                  <button class = "btn btn-success">Create Account</button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        
 </body>
 </html>
