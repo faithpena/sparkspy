@@ -2,8 +2,8 @@
 	
 	function get_user($email)
 	{
-			# Connect to database/abnvrdyjhmznmy
-			$DBH = new PDO("pgsql:host=ec2-107-20-141-145.compute-1.amazonaws.com;dbname=d61nqaetpcu0lv", "abnvrdyjhmznmy", "74a0fb2b3ca5942d218a913b155f50594e945aa459a12e396197ae4c0a231090");
+			# Connect to database/orhbdwfjziwauj
+			$DBH = new PDO("pgsql:host=ec2-23-21-220-167.compute-1.amazonaws.com;dbname=dcnoe38rfbqjpo", "orhbdwfjziwauj", "2d48ab6293544ae8dc28d68149127a00abd335a12a58c47f5c5f4ae4b52e3b53");
 
 			# Put the parameters in an array
 			$data = array('email' => $email);
